@@ -18,12 +18,19 @@
         <input type="text" />
       </label>
       <br /><br />
-      <span>Favorite Character</span>
-      <div><input type="radio" id="spongebob" />Spongebob</div>
-      <div><input type="radio" id="patrick" />Patrick</div>
-      <div><input type="radio" id="sandy" />Sandy</div>
+      <fieldset>
+      <legend>Favorite Character</legend>
+      <input type="radio" id="spongebob" name="character_item"/>
+      <label for="spongebob">Spongebob</label>
+      <br>
+      <input type="radio" id="patrick" name="character_item"/>
+      <label for="patrick">Patrick</label>
+      <br> 
+      <input type="radio" id="sandy" name="character_item"/>
+      <label for="sandy">Sandy</label>
+      </fieldset>
       <br />
-      <button>Submit</button>
+      <input type="submit" value="Submit"/>
     </form>
   </body>
 </html>
